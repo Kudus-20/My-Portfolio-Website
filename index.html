@@ -1,516 +1,1455 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hydrated">
   <head>
     <meta charset="UTF-8" />
+    <style data-styles="">
+      ion-icon {
+        visibility: hidden;
+      }
+      .hydrated {
+        visibility: inherit;
+      }
+    </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abdul-Kudus</title>
+    <title>Abdul's Portfolio</title>
 
-    <!-- box icons -->
+    <!--
+      - favicon
+    -->
+    <!-- <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    /> -->
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap"
       rel="stylesheet"
     />
+    <style type="text/css">
+      @font-face {
+        font-weight: 400;
+        font-style: normal;
+        font-family: circular;
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2")
+          format("woff2");
+      }
 
-    <!-- <script src="js/typed.js"></script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+      @font-face {
+        font-weight: 700;
+        font-style: normal;
+        font-family: circular;
 
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2")
+          format("woff2");
+      }
+    </style>
   </head>
 
-  <body>
-    <!-- header design -->
-    <header class="header">
-      <a href="#" class="logo">Portfolio</a>
+  <body data-new-gr-c-s-check-loaded="14.1186.0" data-gr-ext-installed="">
+    <!--
+      - #MAIN
+    -->
 
-      <nav class="navbar">
-        <a href="#home" style="--i: 1" class="active">Home</a>
-        <a href="#about" style="--i: 2">About</a>
-        <a href="#services" style="--i: 3">Skill</a>
-        <a href="#skills" style="--i: 4">Portfolio</a>
-        <a href="#contact" style="--i: 5">Contact</a>
-      </nav>
-    </header>
+    <main>
+      <!--
+        - #SIDEBAR
+      -->
 
-    <!-- home section design -->
-    <section class="home">
-      <div class="home-content">
-        <h3>Hello, It's Me</h3>
-        <h1>Abdul-Kudus</h1>
-        <h3>And I'm a <span class="text" id="text"></span></h3>
-        <p>
-          I am an ardent appostle of the saying:
-          <br />
-          "The meaning of life is to find your gift. The purpose is to give it
-          away" <br />I love good problems!
-        </p>
-        <div class="home-sci">
-          <a
-            href="https://www.facebook.com/abdulkudus.alhassan.16"
-            style="--i: 7"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a href="https://www.instagram.com/abdul_kudus.1/" style="--i: 8"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a href="#" style="--i: 9"><i class="bx bxl-whatsapp"></i></a>
-          <a
-            href="https://www.linkedin.com/in/abdul-kudus-alhassan-355278252"
-            style="--i: 10"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
+      <aside class="sidebar" data-sidebar="">
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Abdul-Kudus</h1>
+
+            <p class="title">Student Entrepreneur</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn="">
+            <span>Show Contacts</span>
+
+            <ion-icon
+              name="chevron-down"
+              role="img"
+              class="md hydrated"
+              aria-label="chevron down"
+            ></ion-icon>
+          </button>
         </div>
-        <a href="#" class="btn-box">More About Me</a>
-      </div>
-      <div class="profile">
-        <img src="./images/headshot.png" />
-      </div>
-    </section>
 
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="./images/pic1.png" />
-      </div>
-      <div class="about-text">
-        <h2>About<span>Me</span></h2>
-        <h4>Sophomore @ Dartmouth College!</h4>
-        <p style="font-size: medium">
-          I am a passionate and curious individual with a journey that spans
-          across Ghana, South Africa, and now the United States. My story begins
-          in the heart of Ghana, a picturesque town called Kintampo, boasting a
-          breathtaking waterfall that instilled in me a deep appreciation for
-          the beauty of nature. My high school years were spent at St. James
-          Minor Seminary, a Catholic missionary institution that instilled
-          unbeatable standards of discipline and academic excellence. In 2020, I
-          had the incredible opportunity to continue my education at the African
-          Leadership Academy in Johannesburg, South Africa. This two-year
-          pre-university diploma program centered around entrepreneurial
-          leadership. Interacting with like-minded individuals from diverse
-          corners of Africa, I discovered the power of seeing problems as
-          opportunities and fearlessly addressing them head-on. <br />
-          <br />
-          In 2022, I embarked on a new chapter at Dartmouth College, where I am
-          currently pursuing double majors in Computer Science and Mathematics.
-          But life isn't just about academics and work, right? In my free time,
-          you'll find me connecting with people, collaborating on challenging
-          projects, and seeking innovative solutions. I find joy in the friendly
-          competition of playing pool and bowling – it's a fantastic way to
-          unwind and have fun! Music has a special place in my heart, and I
-          enjoy immersing myself in the vibrant rhythms of Afrobeats, Amapiano,
-          Reggae, and Dancehall. My journey has taught me that life is an
-          ever-evolving adventure, and I'm excited to continue exploring and
-          learning. I believe in making a positive impact on the world by
-          leveraging my skills and experiences to build innovative solutions.
-        </p>
-        <a href="#" class="btn-box"> More About Me</a>
-      </div>
-    </section>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-    <section>
-      <div class="services" id="services">
-        <div class="container">
-          <h1 class="sub-title">My<span>Services</span></h1>
-          <div class="services-list">
-            <div>
-              <i class="bx bx-code" style="color: #00eeff"></i>
-              <h2>Frontend Developer</h2>
-              <p>
-                Experience in frontend web development. I am profficient in
-                HTML, CSS and JavaScript. Check the portfolio section for some
-                of the projects I have worked on.
-              </p>
-              <a href="#" class="read">learn more</a>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="mail-outline"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="mail outline"
+                ></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="abdulkudusalhassan237@gmail.com" class="contact-link"
+                  >abdulkudusalhassan237@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon
+                  name="phone-portrait-outline"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="phone portrait outline"
+                ></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+1 (603) 678 0488" class="contact-link"
+                  >+1 (603) 678 0488</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item"></li>
+          </ul>
+        </div>
+
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon
+              name="location-outline"
+              role="img"
+              class="md hydrated"
+              aria-label="location outline"
+            ></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Location</p>
+
+            <address>Hanover, NH</address>
+          </div>
+        </li>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a
+              href="https://www.linkedin.com/in/abdul-kudus-alhassan/"
+              class="social-link"
+            >
+              <ion-icon
+                name="logo-linkedin"
+                role="img"
+                class="md hydrated"
+                aria-label="logo linkedin"
+              ></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Kudus-20" class="social-link">
+              <ion-icon
+                name="logo-github"
+                role="img"
+                class="md hydrated"
+                aria-label="logo twitter"
+              ></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a
+              href="https://www.instagram.com/abdul_kudus.1/"
+              class="social-link"
+            >
+              <ion-icon
+                name="logo-instagram"
+                role="img"
+                class="md hydrated"
+                aria-label="logo instagram"
+              ></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!--
+        - #main-content
+      -->
+
+      <div class="main-content">
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link="">About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="">Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="">Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="">Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link="">Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Product Manager and Software Engineer passionate about
+              creating innovative solutions that bridge the gap between
+              technology and user needs. My journey has taken me from launching
+              startups that address educational challenges to leading
+              cross-functional teams in developing scalable, impactful products.
+              I thrive on turning complex problems into simple, efficient
+              solutions and enjoy every step of the product lifecycle, from
+              ideation to launch.
+            </p>
+            <p>
+              My goal is to make a positive impact by delivering products that
+              not only meet user needs but also exceed expectations. With a
+              strong foundation in technology and a love for learning, I'm
+              driven to continuously improve and push the boundaries of what's
+              possible.
+            </p>
+          </section>
+
+          <!--
+            - service
+          -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                  "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Product Management</h4>
+
+                  <p class="service-item-text">
+                    Developing strategic product roadmaps and managing product
+                    lifecycle to drive growth and innovation.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Building scalable web applications with a focus on user
+                    experience and robust functionality.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Entrepreneurship</h4>
+
+                  <p class="service-item-text">
+                    Leading startups from concept to execution, driving
+                    innovation, and building strong, cross-functional teams.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                  <p class="service-item-text">
+                    Creating intuitive, user-friendly interfaces that enhance
+                    user engagement and satisfaction.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+            - testimonials
+          -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item="">
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar=""
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title=""
+                  >
+                    Muaz Surur
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text="">
+                    <p>
+                      Abdul transformed our vision for Enlight into a reality.
+                      His technical prowess and leadership resulted in a
+                      groundbreaking invention that has revolutionized education
+                      for thousands.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item="">
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar=""
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title=""
+                  >
+                    Osman Amadu
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text="">
+                    <p>
+                      Working with Abdul-Kudus was a pleasure. His passion for
+                      solving complex problems is evident in his work, and he
+                      always goes above and beyond to ensure that the project
+                      outcomes exceed expectations.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item="">
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar=""
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title=""
+                  >
+                    Kate Barlow
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text="">
+                    <p>
+                      Abdul's contributions to our team at Dartmouth were
+                      nothing short of outstanding. His analytical skills,
+                      combined with his ability to foster client relationships
+                      and drive strategic initiatives, significantly enhanced
+                      our project's success.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item="">
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar=""
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title=""
+                  >
+                    Kudirat Abiola
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text="">
+                    <p>
+                      Abdul's ability to lead a diverse team and maintain a
+                      focus on user-centric design was key to our project's
+                      success. He brings energy, creativity, and a clear vision
+                      to every project
+                    </p>
+                  </div>
+                </div>
+              </li> -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item="">
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar=""
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title=""
+                  >
+                    Mahmud Ismael
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text="">
+                    <p>
+                      Abdul-Kudus has a rare talent for turning ideas into
+                      reality. His approach to product management is strategic,
+                      data-driven, and always aligned with user needs, making
+                      him a standout professional in his field.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+            - testimonials modal
+          -->
+
+          <div class="modal-container" data-modal-container="">
+            <div class="overlay" data-overlay=""></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn="">
+                <ion-icon
+                  name="close-outline"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="close outline"
+                ></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img=""
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title="">Alhassan</h4>
+
+                <time datetime="2021-06-14">14 June, 2023</time>
+
+                <div data-modal-text="">
+                  <p>
+                    Abdul has a lot of experience and is very concerned about
+                    the needs of client.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+            - clients
+          -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/client_logo1.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <!-- <img
+                    src="./assets/images/rendezvous.png"
+                    alt="client logo"
+                  /> -->
+                  <img
+                    src="./assets/images/client_logo2.PNG"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    class="enlight_logo"
+                    src="./assets/images/client_logo3.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/client_logo4.png"
+                    alt="client logo"
+                    style="height: 50px; width: 200px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                    style="height: 70px; width: 150px; margin-right: 500px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon
+                  name="book-outline"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="book outline"
+                ></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
             </div>
-            <div>
-              <i class="bx bx-crop" style="color: #00eeff"></i>
-              <h2>Photography</h2>
-              <p>
-                I have two years of experience as a professional Photographer. I
-                do mainly portrait photography. I shoot events, headshots,
-                creative photoshoots amongst others.
-              </p>
-              <a
-                href="https://instagram.com/abdul_graphy?igshid=OGQ5ZDc2ODk2ZA=="
-                class="read"
-                >learn more</a
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Dartmouth College, Hanover, NH
+                </h4>
+
+                <span>2022-2026</span>
+
+                <p class="timeline-text">
+                  Majoring in Computer Science and Economics, I have gained a
+                  strong foundation in AI, Machine Learning, Data Structures,
+                  Algorithms, software design and implementation, and Financial
+                  Modeling. Recognized as an Enrich Scholar and JPDN
+                  International Scholar, I have also made the College Honor
+                  List. Leadership roles and winning 1st place in the DALI Lab
+                  Business Pitch competition highlight my commitment to
+                  innovation and excellence.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  African Leadership Academy (ALA), Johannesburg, South Africa
+                </h4>
+
+                <span>2020 — 2022</span>
+
+                <p class="timeline-text">
+                  At ALA, I studied Entrepreneurial Leadership, Calculus,
+                  Computer Science, and Physics, which fostered critical
+                  thinking and leadership skills. Co-founding Fix Enterprise, a
+                  successful student-led venture, further developed my
+                  entrepreneurial abilities and commitment to positive social
+                  impact.
+                </p>
+              </li>
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Courteney Selous Primary</h4>
+
+                <span>2013 — 2019</span>
+
+                <p class="timeline-text">
+                  I attended Courtney Selous for primary school, where I built a
+                  solid educational foundation and developed a love for
+                  learning. This supportive environment nurtured my curiosity
+                  and set the stage for my future academic achievements.
+                </p>
+              </li> -->
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon
+                  name="book-outline"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="book outline"
+                ></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Enlight Education| Founder & CEO
+                </h4>
+
+                <span>April, 2021- April, 2024</span>
+
+                <p class="timeline-text">
+                  Built and launched an offline learning management system on a
+                  Raspberry Pi, empowering 5,000+ students in 10 schools to
+                  engage in e-learning, resulting in a 50% increase in student
+                  engagement and a 30% improvement in academic performance.
+                  Defined product vision and developed a comprehensive roadmap,
+                  prioritizing features based on in-depth market research,
+                  customer feedback, and competitive analysis, which led to a
+                  40% increase in user satisfaction and adoption rates. Secured
+                  $40,000+ in funding through three competitive pitch
+                  competitions, compellingly articulating the product’s impact
+                  and scalability to investors, and refining presentation and
+                  storytelling skills.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  DALI Lab | Project Partner
+                </h4>
+
+                <span>Jan, 2024 — March, 2024</span>
+
+                <p class="timeline-text">
+                  Developed product specifications and roadmap through
+                  competitive analysis and user research for a comprehensive
+                  educational platform; managed a cross-functional team of 4
+                  designers and 5 developers to build the platform; going from
+                  concept to beta in just 10 weeks. Oversaw the full product
+                  lifecycle, utilizing agile methodologies to deliver on time
+                  and on budget, ensuring alignment with user feedback and
+                  project goals.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Fix Enterprise | Founder & CEO
+                </h4>
+
+                <span>December 2021-May 2022 </span>
+
+                <p class="timeline-text">
+                  Launched and scaled a merchandise printing business, achieving
+                  profitability and a successful exit in six months by
+                  leveraging market analysis to identify high-demand segments
+                  and optimize product offerings. Led a team of 10 in
+                  operational excellence, implementing efficient workflows and
+                  quality control measures, resulting in a 30% reduction in
+                  production time and a 20% increase in customer satisfaction.
+                  Surveyed and interviewed 200+ customers, utilized feedback to
+                  launch new products, and increased revenue by 15%.
+                </p>
+              </li>
+            </ol>
+          </section>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Product Management</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Analysis</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UI/UX Design</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+          - #PORTFOLIO
+        -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn="">All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn="">Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn="">Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn="">Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select="">
+                <div class="select-value" data-selecct-value="">
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon
+                    name="chevron-down"
+                    role="img"
+                    class="md hydrated"
+                    aria-label="chevron down"
+                  ></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item="">All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item="">Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item="">Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item="">Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="web development"
               >
-            </div>
-            <div>
-              <i class="bx bxl-apple" style="color: #00eeff"></i>
-              <h2>Entrepreneurship</h2>
-              <p>
-                I attended the African Leadership Academy where I sufficiently
-                studied and explored Entrepreneurship and leadership for two
-                years. I have succeesfully co-founded and managed four different
-                businesses over the past three years.
-              </p>
-              <a
-                href="https://instagram.com/afri_vive?igshid=OGQ5ZDc2ODk2ZA=="
-                class="read"
-                >learn more</a
+                <a href="https://enlighteducation.org/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Enlight Education</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="web development"
               >
-            </div>
-          </div>
-        </div>
+                <a
+                  href="https://drive.google.com/file/d/1_xBLzpyvK6rLVXETStCgviF3plJJAAVf/view?usp=sharing"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="Enlight Education"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Book of Everything</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="web design"
+              >
+                <a
+                  href="https://www.figma.com/proto/RidcpdEOsexXb5jux7ks6f/Final-Project%3A-Abdul-%26-Kasuti?node-id=5491-1648&t=8yrifGGJz8YIlGm1-1&scaling=scale-down&content-scaling=fixed&page-id=4775%3A3&starting-point-node-id=5491%3A1648&show-proto-sidebar=1"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.png"
+                      alt="Travel Buddy"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Travel Buddy</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="applications"
+              >
+                <a
+                  href="https://www.figma.com/proto/2ruiqPRzb7GsOreX7lECKX/Rendezvous?node-id=724-3282&node-type=canvas&t=lKNGva1hWnhS2X9F-1&scaling=scale-down&content-scaling=fixed&page-id=724%3A3214&starting-point-node-id=724%3A5522&show-proto-sidebar=1"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Rendezvous App</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="web design"
+              >
+                <a
+                  href="https://www.figma.com/proto/phxMJEj4dO4UvBRrX6nz5X/2D%3A-Abdul-Kudus_A_Retired?node-id=5079-95&t=Uaqsc01nkUlVQ2y9-1&scaling=min-zoom&content-scaling=fixed&page-id=4476%3A275"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Step UP</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="web design"
+              >
+                <a href="https://rendezvoushq.ai/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Rendezvous</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item=""
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon
+                        name="eye-outline"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="eye outline"
+                      ></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="blogs/blog1.htm" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Cross-Functional Magic</h3>
+
+                    <p class="blog-text">
+                      How to Unite Teams to Create Breakthrough Products
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="blogs/blog2.html" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Iterating Toward Success</h3>
+
+                    <p class="blog-text">
+                      Why Failing Fast Can Lead to Better Product Management
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="blogs/blog3.html" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Listen to the Customer</h3>
+
+                    <p class="blog-text">
+                      Why the Customer is Always the Boss in Product Management
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="blogs/blog4.html" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">April 23, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">More Than Words</h3>
+
+                    <p class="blog-text">
+                      Getting to the Heart of User Pain Points
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="blogs/blog5.html" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">June 23, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The Art of Prioritization
+                    </h3>
+
+                    <p class="blog-text">
+                      How to Keep Your Product Team Aligned
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="blogs/blog6.html" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">July 23, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">More Than Just Numbers</h3>
+
+                    <p class="blog-text">
+                      Data-Driven Decision Making in Product Management
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox="">
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51562.70395882694!2d-72.33020847303686!3d43.70286358143097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1720673909669!5m2!1sen!2sus"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formspree.io/f/mqazzrvz"
+              method="POST"
+              class="form"
+              data-form=""
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required=""
+                  data-form-input=""
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required=""
+                  data-form-input=""
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required=""
+                data-form-input=""
+              ></textarea>
+
+              <button
+                class="form-btn"
+                type="submit"
+                disabled=""
+                data-form-btn=""
+              >
+                <ion-icon
+                  name="paper-plane"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="paper plane"
+                ></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
       </div>
-    </section>
+    </main>
 
-    <h1 class="sub-title">My<span>Skills</span></h1>
+    <!--
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
 
-    <section>
-      <div class="container1" id="skills">
-        <h1 class="heading1">Technical skills</h1>
-        <div class="Technical-bars">
-          <div class="bar">
-            <i class="bx bxl-html5" style="color: #c95d2e"></i>
-            <div class="info">
-              <span>HTML</span>
-            </div>
-            <div class="progress-line html">
-              <span></span>
-            </div>
-          </div>
+    <!--
+      - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-          <div class="bar">
-            <i class="bx bxl-css3" style="color: #147bbc"></i>
-            <div class="info">
-              <span>CSS</span>
-            </div>
-            <div class="progress-line css">
-              <span></span>
-            </div>
-          </div>
-
-          <div class="bar">
-            <i class="bx bxl-javascript" style="color: #b0bc1e"></i>
-            <div class="info">
-              <span>Javascript</span>
-            </div>
-            <div class="progress-line Javascript">
-              <span></span>
-            </div>
-          </div>
-
-          <div class="bar">
-            <i class="bx bxl-python" style="color: #c32ec9"></i>
-            <div class="info">
-              <span>Python</span>
-            </div>
-            <div class="progress-line python">
-              <span></span>
-            </div>
-          </div>
-
-          <div class="bar">
-            <i class="bx bxl-react" style="color: #69bcbc"></i>
-            <div class="info">
-              <span>react</span>
-            </div>
-            <div class="progress-line react">
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container1">
-        <h1 class="heading1">Professional Skills</h1>
-        <div class="radial-bars">
-          <div class="radial-bar">
-            <svg x="0px" y="0px" viewBox="0 0 200 200">
-              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-            </svg>
-            <div class="percentage">90%</div>
-            <div class="text">Creativity</div>
-          </div>
-
-          <div class="radial-bar">
-            <svg x="0px" y="0px" viewBox="0 0 200 200">
-              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
-            </svg>
-            <div class="percentage">85%</div>
-            <div class="text">Communication</div>
-          </div>
-
-          <div class="radial-bar">
-            <svg x="0px" y="0px" viewBox="0 0 200 200">
-              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
-            </svg>
-            <div class="percentage">95%</div>
-            <div class="text">Problem Solving</div>
-          </div>
-
-          <div class="radial-bar">
-            <svg x="0px" y="0px" viewBox="0 0 200 200">
-              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
-            </svg>
-            <div class="percentage">90%</div>
-            <div class="text">Team Work</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="portf">
-      <div id="Portfolio" id="project">
-        <div class="main-text" id="project">
-          <h2>Latest<span>Projects</span></h2>
-
-          <div class="Portfolio-content">
-            <div class="row">
-              <img src="./images/webcam.jpg" />
-              <div class="layer">
-                <h5>Webcam-Based Painting Program</h5>
-                <p>
-                  Designed and implemented a webcam-based painting program in
-                  Java, allowing users to utilize a portion of the webcam image
-                  as a "paintbrush" using a color-based "region growing"
-                  algorithm.
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/111.jpg" />
-              <div class="layer">
-                <h5>Point Quadtree for Collision Detection</h5>
-                <p>
-                  Designed and implemented a high-performance point quadtree in
-                  Java for efficient real-time collision detection between
-                  animated blobs.
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/222.jpg" />
-              <div class="layer">
-                <h5>Huffman File Compression</h5>
-                <p>
-                  Implemented Huffman encoding in Java for file compression and
-                  decompression, leveraging binary trees, maps, and priority
-                  queues to achieve optimal variable-length encoding for
-                  space-efficient data storage.
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/kevinB.jpg" />
-              <div class="layer">
-                <h5>Bacon Number Calculator</h5>
-                <p>
-                  Developed a social network analysis tool to find an actor's
-                  "Bacon number" using a breadth-first search (BFS) algorithm,
-                  allowing users to determine the shortest path to any actor in
-                  the network.
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/servers.jpg" />
-              <div class="layer">
-                <h5>Collaborative Graphical Editor</h5>
-                <p>
-                  Developed a collaborative graphical editor in Java, enabling
-                  multiple simultaneous editors to work on the same document in
-                  real-time. Implemented message passing protocols and
-                  synchronized methods to maintain a consistent shared view of
-                  the sketch across all clients, allowing seamless collaboration
-                  and real-time updates on drawings.
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/solar.jpg" />
-              <div class="layer">
-                <h5>Solar System Simulator | Python</h5>
-                <p>
-                  Wrote a program to mimic the solar system with each planet
-                  revolving in elliptical orbits around the sun using objects
-                  and classes to implement my code
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/tomb1.jpg" />
-              <div class="layer">
-                <h5>Dartmouth Path Finder | Python</h5>
-                <p>
-                  Built a program that uses the Breadth First Search(BFS)
-                  algorithm and data of locations of buildings on the Dartmouth
-                  Campus to find the shortest path between any two places
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/pingpong.jpg" />
-              <div class="layer">
-                <h5>Pong Game | Python</h5>
-                <p>
-                  Developed the Pong game that allows the user to control the
-                  two paddles with keyboard inputs
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              <img src="./images/tomb2.jpg" />
-              <div class="layer">
-                <h5>
-                  Global Odyssey: Sorting and Visualizing World Cities | Python
-                </h5>
-                <p>
-                  Implemented an algorithm that takes a list of all cities in
-                  the world and annimates their display on the world in order of
-                  their populations and latitudes. Used partition sort, quick
-                  sort, file handling and object and class manipulation to
-                  implement this code.
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-            <div class="row">
-              <img src="./images/todolist.jpg" />
-              <div class="layer">
-                <h5>Task Manager App | JavaScript| HTML| CSS</h5>
-                <p>
-                  Developed an application that uses Local Storage and Vanilla
-                  JavaScript to display a user’s list of to-do tasks and allows
-                  the user to add and remove them from the list
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-            <div class="row">
-              <img src="./images/battery.jpg" />
-              <div class="layer">
-                <h5>Battery App | JavaScript| HTML| CSS</h5>
-                <p>
-                  Used the built-in Battery API to develop an application that
-                  displays relevant information about the battery of the user’s
-                  device (battery level, time to full charge, charging status,
-                  and time to discharge) in the operating system
-                </p>
-                <a href="#"
-                  ><i class="bx bx-link-external" style="color: aliceblue"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="contact-text">
-        <h2>Contact<span>Me</span></h2>
-        <h4>Let's work Together</h4>
-        <p>
-          Need a partner for your startup, a photographer for your events, a
-          frontend developer or just a passionate problem solver?
-          <br />
-          Let's chat!
-        </p>
-        <div class="contact-list">
-          <li><i class="bx bxs-send"></i> abdulkudusalhassan237@gmail.com</li>
-          <li><i class="bx bxs-phone"></i> +1 (603) 678 0488</li>
-        </div>
-        <div class="contact-icons">
-          <a href="https://www.facebook.com/abdulkudus.alhassan.16"
-            ><i class="bx bxl-facebook-circle"></i
-          ></a>
-          <a href=""><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/abdul_kudus.1/"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/abdul-kudus-alhassan-355278252"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-        </div>
-      </div>
-
-      <div class="contact-form">
-        <form action="">
-          <input type="" placeholder="Enter Your Name" required />
-          <input type="email" placeholder="Enter Your Email" required />
-          <input type="" placeholder="Enter Your Subject" />
-          <textarea
-            name=""
-            id=""
-            cols="40"
-            rows="10"
-            placeholder="Enter Your Message"
-            required
-          ></textarea>
-          <input type="submit" value="submit" class="send" />
-        </form>
-      </div>
-    </section>
-    <div class="last-text">
-      <p>Developed by Abdul-Kudus</p>
+    <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
+      <section id="shadow-host-companion"></section>
     </div>
-    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
-
-    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
-
-    <!-- typed js -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
-
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-
-    <script>
-      var typed = new Typed("#text", {
-        strings: [
-          "Entrepreneur",
-          "Photographer",
-          "Graphic Designer",
-          "UI/UX Designer",
-          "Frontend Developer",
-        ],
-        typeSpeed: 50,
-        loop: true,
-      });
-    </script>
   </body>
+
+  <grammarly-desktop-integration
+    data-grammarly-shadow-root="true"
+  ></grammarly-desktop-integration>
 </html>

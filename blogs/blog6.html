@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data-Driven Decision Making</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --jet: hsl(0, 0%, 22%);
+        --onyx: hsl(240, 1%, 17%);
+        --eerie-black-1: hsl(240, 2%, 13%);
+        --eerie-black-2: hsl(240, 2%, 12%);
+        --orange-yellow-crayola: hsl(45, 100%, 72%);
+        --light-gray: hsl(0, 0%, 84%);
+        --white-1: hsl(0, 0%, 100%);
+        --text-gradient-yellow: linear-gradient(
+          to right,
+          hsl(45, 100%, 72%),
+          hsl(35, 100%, 68%)
+        );
+        --fs-1: 32px;
+        --fs-2: 24px;
+        --fs-3: 18px;
+        --fw-300: 300;
+        --fw-400: 400;
+        --fw-500: 500;
+        --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+        --transition-1: 0.25s ease;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: hsl(240, 13%, 86%);
+        color: var(--white-1);
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: var(--onyx);
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: var(--shadow-2);
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: var(--fs-1);
+        background: var(--text-gradient-yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      article {
+        max-width: 900px;
+        margin: 40px auto;
+        background: var(--eerie-black-1);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: var(--shadow-2);
+      }
+
+      article img {
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: var(--orange-yellow-crayola);
+        font-size: var(--fs-2);
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: var(--fs-3);
+        font-weight: var(--fw-300);
+        margin-bottom: 20px;
+        line-height: 1.6;
+        color: var(--light-gray);
+      }
+
+      h3 {
+        font-size: var(--fs-3);
+        margin-bottom: 15px;
+        color: var(--orange-yellow-crayola);
+      }
+
+      .quote {
+        background: var(--eerie-black-2);
+        border-left: 5px solid var(--orange-yellow-crayola);
+        padding: 15px 20px;
+        margin: 30px 0;
+        font-style: italic;
+        color: var(--light-gray);
+      }
+
+      .highlight {
+        color: var(--orange-yellow-crayola);
+      }
+
+      .btn {
+        display: inline-block;
+        background: var(--jet);
+        color: var(--white-1);
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: background var(--transition-1);
+        font-weight: var(--fw-500);
+      }
+
+      .btn:hover {
+        background: var(--orange-yellow-crayola);
+      }
+
+      footer {
+        text-align: center;
+        color: var(--light-gray);
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Data-Driven Decision Making in Product Management: More Than Just
+        Numbers
+      </h1>
+    </header>
+
+    <article>
+      <img
+        src="/assets/images/blog2.jpg"
+        alt="Data-Driven Decision Making Image"
+      />
+
+      <h2>
+        In product management, there's a common phrase that has become almost a
+        mantra: “If you can't measure it, you can't improve it.”
+      </h2>
+
+      <p>
+        During my early product management journey, I realized that while gut
+        feelings and intuition can get you started, the difference between a
+        good product and a great one lies in data-driven decision-making.
+      </p>
+
+      <h3>More Than Just Collecting Data: The Right Metrics Matter</h3>
+      <p>
+        Not all data is useful. Collecting everything and trying to measure too
+        many things at once can cloud judgment. It's about identifying key
+        performance indicators (KPIs) that align with the product’s goals.
+      </p>
+
+      <div class="quote">
+        <p>
+          “The beauty of data is that it helps us step away from assumptions and
+          anecdotes and gives us concrete evidence of what’s working and what’s
+          not.”
+        </p>
+      </div>
+
+      <p>
+        For example, when working on a learning management system (LMS),
+        engagement data (like daily active users and session lengths) was
+        critical. But qualitative metrics—like user interaction—are equally
+        important.
+      </p>
+
+      <h3>Data Can Tell You What Is Happening, but Not Why</h3>
+      <p>
+        Numbers are important, but they don’t tell the full story. Qualitative
+        research helps explain the 'why' behind the data, ensuring we fully
+        understand user behavior and reactions.
+      </p>
+
+      <h3>Data Isn’t Just for Looking Back—It Helps Predict the Future</h3>
+      <p>
+        One of the most exciting aspects of data-driven product management is
+        predictive analytics. Analyzing trends helps anticipate future user
+        needs and stay ahead of the competition.
+      </p>
+
+      <h3>
+        Decisions Should Be Informed by Data, but They Can’t Be Ruled by It
+      </h3>
+      <p>
+        While data informs decisions, it shouldn’t rule them. Some of the most
+        successful products started as ideas that defied conventional metrics.
+      </p>
+
+      <a href="#" class="btn">Learn More About Data-Driven Decision Making</a>
+    </article>
+
+    <footer>
+      <p>Written by Abdul-Kudus | © 2024</p>
+    </footer>
+  </body>
+</html>
